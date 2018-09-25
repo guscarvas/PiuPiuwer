@@ -1,0 +1,66 @@
+.titulo{
+    font-size: 60px;
+    color: rgb(0,0,0);
+    background-color: rgb(242,255,40);
+    text-align: left;
+    font-family: fantasy , "Arial";
+    padding: 25px;
+    width: 100%;
+    clear: both;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.titulo{
+    position: relative;
+}
+
+    
+}
+main h1{
+    font-size: 60px;
+    color: rgb(0,0,0);
+    background-color: rgb(242,255,40);
+    text-align: right;
+    font-family: fantasy , "Arial";
+    
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Arial";
+    text-align: center;
+}
+footer{
+    font-size: 35px;
+    font-family: fantasy;
+    background-color: blue
+    
+}
+aside{
+    float: right;
+        
+    background-color: rgb(242,255,40);  
+        
+    
+}
+blockquote{
+    background-color: aqua;
+    border: 5px solid;
+    border-color: darkviolet;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+}
+header img{
+    display: inline-block;
+    height: 60px;
+    position: relative
+}
+header a{
+    display: inline-block
+}

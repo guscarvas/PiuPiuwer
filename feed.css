@@ -1,0 +1,213 @@
+.titulo {
+    font-size: 200%;
+    font-family: fantasy;
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0.75em;
+    background-image: linear-gradient(to left,#3366ff, cyan);
+    border-bottom: solid 0.15em;
+    width: 100%;
+}
+.logo {
+    height: 1em;
+}
+nav {
+    float: right;
+    width: 7.5%;
+    background-color:#3366ff;
+    height: auto;
+}
+main {
+    float: left;
+    width: 50%;
+    margin-left: 20%;
+    background-color: aliceblue;
+    height: 100%;
+    font-family: "Arial",sans-serif;
+}
+.foto {
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: black;
+    margin-top: 3em;
+}
+body{
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 15px 15px;
+    background-color: cyan;
+    
+}
+main h1{
+    font-weight: bold;
+    margin-top: 10px;
+}
+textarea{
+    border-left: solid 4px blue;
+}
+.site{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+}
+#search{
+    display: inline-block;
+}
+.foto {
+    height: 50px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: black;
+    margin-top: 0.25em;
+    margin-left: 0.25em;
+    display: inline-block;
+    
+
+}
+div h1{
+    display: inline-block;
+}
+.postagem{
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    font-size: 110%;
+    height: 100%;
+}
+.pesquisa{
+    display: inline-block;
+}
+.corfundo{
+    background-color: aqua;
+}
+.tipoborda{
+    border:dotted 0.25em aqua;
+}
+.corborda{
+    border: solid 0.25em aqua;
+}
+.opcao{
+    margin: 0.25em;
+}
+.caixaopcao{
+    padding-left: 0.25em;
+    margin-left: 0.5em;
+    background-color: aquamarine;
+    border-bottom-right-radius: 200px 10px;
+    border-top-left-radius: 200px 10px;
+}
+h1{
+    display: inline-block;
+}
+.dislike{
+    background-color: red;
+    color: black;
+    border-color: transparent;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1em;
+    border-bottom-right-radius: 10px 5px;
+    border-top-right-radius: 10px 5px;
+    border-top-left-radius: 10px 5px;
+    border-bottom-left-radius: 10px 5px;
+}
+.disliked{
+    border-color: white;
+    color: white;
+}
+.like{
+    background-color: blueviolet;
+    border-color: transparent;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0;
+    border-bottom-right-radius: 10px 5px;
+    border-top-right-radius: 10px 5px;
+    border-top-left-radius: 10px 5px;
+    border-bottom-left-radius: 10px 5px;
+}
+.liked{
+    border-color: white;
+    color: white;
+}
+p{
+    margin: 0.5em;
+}
+.feedicon{
+    background-image: url(img/feedreal.png);
+}
+.perfilnav{
+ background-image: url(img/iconeperfil.png.png);  
+}
+.amigos{
+    background-image: url(img/amigos.png);
+
+}
+.configuracoes{
+    background-image: url(img/engrenagem.png);
+}
+nav ul li a{
+    height: 48px;
+    width: 48px;
+    display: block;
+    text-indent: -9999999px;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.erro{
+    color: red;
+}
+.errofundo{
+    background-color: lightcoral;
+}
+#feed{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+.imagemPost{
+    height: 10em;
+}
+.usuario{
+    margin: 0.5em;
+}
+.deletar{
+    float: right;
+    background-image: url(img/delete.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px 24px;
+    border: 0ch;
+    background-color: lightgray;
+    text-indent: -99999999999999999em;
+    margin: 1em;
+}
+.likeometer{
+    margin: 0.1em;
+    padding: 0.2em;
+    background-color: darkorange;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}

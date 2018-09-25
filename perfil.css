@@ -1,0 +1,139 @@
+.titulo {
+    font-size: 200%;
+    font-family: fantasy;
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0.75em;
+    background-image: linear-gradient(to left,#3366ff, cyan);
+    border-bottom: solid 0.15em;
+    width: 100%;
+}
+.logo {
+    height: 1em;
+}
+.perfil {
+    text-align: center;
+    background-image:url(img/landscape2.png);
+    background-attachment: fixed;
+    float: left;
+    width: 92.5%;
+}
+nav {
+    float: right;
+    width: 7.5%;
+    background-color:#3366ff;
+    height: auto;
+}
+nav li{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+main {
+    float: left;
+    margin-left: 20%;
+}
+.foto {
+    height: 200px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: black;
+    margin-top: 3em;
+    
+
+}
+.perfil h1 {
+    font-size: 300%;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px black;
+}
+main{
+    width: 50%;
+    margin-left: 20%;
+    background-color: aliceblue;
+    height: 50em;
+    font-family: "Arial",sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 15px 15px;
+    background-color: cyan;
+    
+}
+cite{
+    font-style: italic;
+    text-align: right;
+    font-size: 150%;
+    margin: .5em;
+}
+main h1{
+    font-weight: bold;
+    margin: 10px;
+}
+blockquote h1{
+    background-color: purple;
+    color: white;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 250%;
+    padding: 0.25em;
+    width: 4.5em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    
+}
+blockquote{
+    background-color: red;
+    color: white;
+    background-image: linear-gradient(45deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    border-radius: 25px 0px 25px 0px;
+}
+blockquote p{
+    margin: 0,5em;
+    text-indent: 1em;
+    
+}
+.tabela{
+    width: 350px;
+    height: auto;
+}
+main ul{
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+thead{
+    font-weight: bold;
+}
+.feed{
+    background-image: url(img/feedreal.png);
+}
+.perfilnav{
+ background-image: url(img/iconeperfil.png.png);  
+}
+.amigos{
+    background-image: url(img/amigos.png);
+
+}
+.configuracoes{
+    background-image: url(img/engrenagem.png);
+}
+nav ul li a{
+    height: 48px;
+    width: 48px;
+    display: block;
+    text-indent: -9999999px;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+nav{
+    text-align: center;
+}
+
+

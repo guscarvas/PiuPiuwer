@@ -1,0 +1,102 @@
+.titulo{
+    font-size: 300%;
+    font-family: fantasy;
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    background-image: linear-gradient(to left,blue, cyan);
+    border-bottom: solid 0.15em;
+}
+.logo{
+    height: 1em;
+}
+legend{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: monospace;
+    padding-bottom: 0.5em;
+}
+label{
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+input{
+    width: 99%;
+    height: 2em;
+    padding-bottom: 0.25em;
+    position: relative;
+}
+button{
+    border: 0;
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: #3366ff;
+    font-family: monospace;
+    color: white;
+    margin-top: 1em;
+    border-radius: 0.4em;
+}
+button:hover{
+    border: dashed 0.25em;
+    padding: 0.75em;
+    border-color: blue;
+}
+form{
+    padding: 1em;
+}
+p{
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: monospace;
+}
+.cadastro{
+    margin-left: 1em;
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: #3366ff;
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.4em;
+}
+.cadastro:hover{
+    background-color: #3366ff;
+    border: dashed 0.25em;
+    padding: 0.75em;
+    border-color: blue;
+}
+.com-icone[for="email"]::after{
+    background-image: url(img/email.png);
+}
+.com-icone[for="senha"]::after{
+    background-image: url(img/cadeado.png)
+}
+.com-icone::after{
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background-color: #8C1D3D;
+    background-size: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 100%;
+}
+
+main{
+    width: 50%;
+    margin-left: 20%;
+    background-color: aliceblue;
+    height: 50em;
+}
+body{
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 15px 15px;
+    background-color: cyan;
+    
+}
